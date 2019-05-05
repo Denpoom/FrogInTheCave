@@ -12,16 +12,61 @@ h2 {
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Calibri';
-  font-size: 8vw;
+  font-size: 3vw;
   text-align: center;
   color: #fff;
   
 }
 
-.page1 {
-    background: linear-gradient(225deg, #ffc27d, #ff8e93);
+h3 {
+  position: absolute;
+  width: 80%;
+  top: 65%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  font-family: 'Calibri';
+  font-size: 6vw;
+  text-align: center;
+  color: rgb(212, 140, 140);
+  
 }
 
+h4 {
+  position: absolute;
+  width: 80%;
+  top: 80%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  font-family: 'Calibri';
+  font-size: 3vw;
+  text-align: center;
+  color: rgb(212, 140, 140);
+  
+}
+
+.page1 {
+    background: url("./pic/ตึก.png");
+     background-position: center center;
+  
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+  
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+     the content height is greater than the image height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color:#000;
+}
+
+.page1-text{
+      top: 80%;
+}
 .page2 {
     background: linear-gradient(#65cce1, #6365ec);
 }
