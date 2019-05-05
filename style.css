@@ -8,8 +8,8 @@ html {
 h2 {
   position: absolute;
   width: 80%;
-  top: 40%;
-  left: 50%;
+  top: 37%;
+  left: 72%;
   transform: translate(-50%, -50%);
   font-family: 'Calibri';
   font-size: 3vw;
@@ -45,7 +45,21 @@ h4 {
   color: rgb(212, 140, 140);
   
 }
-
+img {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  size: 3vw;
+}
+p{
+  position: absolute;
+  top: 40%;
+  right: 3%;
+  font-family: 'Calibri';
+  font-size: 3vw;
+  text-align: center;
+  color: #fff;
+}
 .page1 {
     background: url("./pic/ตึก.png");
      background-position: center center;
@@ -67,22 +81,40 @@ h4 {
 .page1-text{
       top: 80%;
 }
+.hair{
+  color: rgb(207, 21, 21);
+}
 .page2 {
     background: linear-gradient(#65cce1, #6365ec);
 }
-
+.dressing{
+  left: 70%;
+  color: rgb(193, 8, 230);
+}
 .page3 {
     background: linear-gradient(225deg, #78312c, #4376ef);
 }
-
+.punishment{
+  left: 74%;
+  color: rgb(8, 230, 8);
+}
 .page4 {
     background: linear-gradient(#871223, #123de2);
 }
-
+.edu {
+  left: 71%;
+  color: rgb(12, 16, 236);
+}
 .page5 {
     background: linear-gradient(102deg, #54e62d, #90233e);
 }
-
+.soldier {
+  right: 30%;
+  color: rgb(12, 184, 236);
+}
+.page6 {
+  background: linear-gradient( #2c572c, #020303);
+}
 body.slider__body {
   margin: 0;
   padding: 0;
