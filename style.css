@@ -51,6 +51,23 @@ img {
   left: 5%;
   size: 3vw;
 }
+
+.froglogo{
+  position: absolute;
+  top: 10%;
+  left: 1.5%;
+  width: 12vw;
+  
+  
+}
+.teamlogo{
+  position: absolute;
+  top: 25%;
+  left: 90%;
+  height: 5vh;
+  
+}
+
 p{
   position: absolute;
   top: 40%;
@@ -75,7 +92,7 @@ p{
   background-size: cover;
   
   /* Pick a solid background color that will be displayed while the background image is loading */
-  background: linear-gradient(#fff, #000);
+  background: black;
 }
 
 .page1-text{
@@ -85,35 +102,35 @@ p{
   color: rgb(207, 21, 21);
 }
 .page2 {
-    background: linear-gradient(#000, #7a758df5);
+    background: black;
 }
 .dressing{
   left: 70%;
   color: rgb(193, 8, 230);
 }
 .page3 {
-    background: linear-gradient( #7a758df5, #4376ef);
+    background: black;
 }
 .punishment{
   left: 74%;
   color: rgb(8, 230, 8);
 }
 .page4 {
-    background: linear-gradient(#4376ef, #194270);
+    background: black;
 }
 .edu {
   left: 71%;
   color: rgb(12, 16, 236);
 }
 .page5 {
-    background: linear-gradient( #194270, #224922);
+    background: black;
 }
 .soldier {
   right: 30%;
   color: rgb(12, 184, 236);
 }
 .page6 {
-  background: linear-gradient(#224922, #020303);
+  background: black;
 }
 body.slider__body {
   margin: 0;
@@ -212,7 +229,7 @@ nav{
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(20, 9, 9, 0.562);
+  background-color: rgba(0, 0, 0, 0);
   transition: all .5s;
 }
 
@@ -238,14 +255,13 @@ nav ul li a{
 *{
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 
-@media (max-width: 400px){
+@media (max-width: 300px){
 
 
   nav{
@@ -271,6 +287,4 @@ nav ul li a{
     background-color: #fff;
     color:black;
   }
-  
-
 }
