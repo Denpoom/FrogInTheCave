@@ -234,7 +234,15 @@ nav ul li a{
   display: none;
 }
 
-
+*{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
 
 @media (max-width: 400px){
 
