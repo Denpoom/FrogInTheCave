@@ -1,3 +1,4 @@
+
 var slider = function(sliderElement) {
   var pages = [];
   var currentSlide = 1;
@@ -15,11 +16,20 @@ var slider = function(sliderElement) {
         : document.onmousewheel !== undefined ? "mousewheel" : "DOMMouseScroll";
     window.addEventListener(whatWheel, function(e) {
       var direction = e.wheelDelta || e.deltaY;
+
+      ///hidden navigation
+    if (direction > 0) {
+      document.querySelector("nav").style.top = "0";
+    } else {
+      document.querySelector("nav").style.top = "-55px";
+    }
+    
       if (direction > 0) {
         changeSlide(-1);
       } else {
         changeSlide(1);
       }
+    
     });
 
     // allow keyboard input
@@ -185,5 +195,7 @@ var slider = function(sliderElement) {
     window.addEventListener("onload", init(), false);
   }
 };
+
+
 
 slider('.slides');

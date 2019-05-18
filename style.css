@@ -212,7 +212,8 @@ nav{
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #222;
+  background-color: rgba(20, 9, 9, 0.562);
+  transition: all .5s;
 }
 
 nav ul{
@@ -266,8 +267,10 @@ nav ul li a{
     background-color: #222;
     color:white;
   }
-  ul li:hover{
-    background-color: rgb(227, 235, 155);
+  nav ul li:hover{
+    background-color: #fff;
+    color:black;
   }
+  
 
 }
