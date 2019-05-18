@@ -16,7 +16,6 @@ var slider = function(sliderElement) {
         : document.onmousewheel !== undefined ? "mousewheel" : "DOMMouseScroll";
     window.addEventListener(whatWheel, function(e) {
       var direction = e.wheelDelta || e.deltaY;
-
       ///hidden navigation
     if (direction > 0) {
       document.querySelector("nav").style.top = "0";
@@ -105,7 +104,7 @@ var slider = function(sliderElement) {
         e.type == "touchcancel"
       ) {
         var touch = e.touches[0] || e.changedTouches[0];
-        touchStopPos = touch.pageY;
+        var touchStopPos = touch.pageY;
       }
       if (touchStartPos + touchMinLength < touchStopPos) {
         changeSlide(-1);
@@ -191,7 +190,8 @@ var slider = function(sliderElement) {
   // we have lift off
   if (document.readyState === "complete") {
     init();
-  } else {
+  }
+  else {
     window.addEventListener("onload", init(), false);
   }
 };
