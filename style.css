@@ -612,3 +612,13 @@ nav ul li a{
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
 }
+
+/* button */
+button{
+  position: absolute;
+  top: 40%;
+  width: 100px;
+  height: 50px;
+  right: 20%;
+  cursor: pointer;
+}
