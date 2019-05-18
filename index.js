@@ -199,3 +199,20 @@ var slider = function(sliderElement) {
 
 
 slider('.slides');
+// gimmic
+var lock = 0;
+function myFunction2(){
+  if(lock == 0){
+    lock = 1;
+    document.getElementsByClassName("lock")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("unlock")[0].style.animation = "fadein 2s forwards";
+    document.getElementsByClassName("img1")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("img2")[0].style.animation = "fadein 2s forwards";
+  } else {
+    lock = 0;
+    document.getElementsByClassName("lock")[0].style.animation = "fadein 2s forwards";
+    document.getElementsByClassName("unlock")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("img2")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("img1")[0].style.animation = "fadein 2s forwards";
+  }
+}
