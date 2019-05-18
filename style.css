@@ -4,6 +4,8 @@ html {
   width: 100%;
   overflow: hidden;
 }
+
+/* gimmic */
 img.lock{
   position: absolute;
   top: 40%;
@@ -22,6 +24,79 @@ img.unlock{
   cursor: pointer;
   opacity: 0;
 }
+img.lock3{
+  position: absolute;
+  top: 40%;
+  width: 100px;
+  height: 100px;
+  right: 30%;
+  cursor: pointer;
+  opacity: 1;
+}
+img.unlock3{
+  position: absolute;
+  top: 40%;
+  width: 100px;
+  height: 100px;
+  right: 30%;
+  cursor: pointer;
+  opacity: 0;
+}
+img.lock4{
+  position: absolute;
+  top: 40%;
+  width: 100px;
+  height: 100px;
+  right: 30%;
+  cursor: pointer;
+  opacity: 1;
+}
+img.unlock4{
+  position: absolute;
+  top: 40%;
+  width: 100px;
+  height: 100px;
+  right: 30%;
+  cursor: pointer;
+  opacity: 0;
+}
+img.lock5{
+  position: absolute;
+  top: 40%;
+  width: 100px;
+  height: 100px;
+  right: 30%;
+  cursor: pointer;
+  opacity: 1;
+}
+img.unlock5{
+  position: absolute;
+  top: 40%;
+  width: 100px;
+  height: 100px;
+  right: 30%;
+  cursor: pointer;
+  opacity: 0;
+}
+img.lock6{
+  position: absolute;
+  top: 40%;
+  width: 100px;
+  height: 100px;
+  right: 30%;
+  cursor: pointer;
+  opacity: 1;
+}
+img.unlock6{
+  position: absolute;
+  top: 40%;
+  width: 100px;
+  height: 100px;
+  right: 30%;
+  cursor: pointer;
+  opacity: 0;
+}
+/* gimmic */
 .content-bt{
   padding-top: 35%;
 }
