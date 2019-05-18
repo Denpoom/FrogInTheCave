@@ -199,3 +199,86 @@ var slider = function(sliderElement) {
 
 
 slider('.slides');
+// gimmic
+var lock = 0;
+function myFunction2(){
+  if(lock == 0){
+    lock = 1;
+    document.getElementsByClassName("lock")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("unlock")[0].style.animation = "fadein 2s forwards";
+    document.getElementsByClassName("img1")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("img2")[0].style.animation = "fadein 2s forwards";
+  } else {
+    lock = 0;
+    document.getElementsByClassName("lock")[0].style.animation = "fadein 2s forwards";
+    document.getElementsByClassName("unlock")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("img2")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("img1")[0].style.animation = "fadein 2s forwards";
+  }
+}
+
+var lock2 = 0;
+function myFunction3(){
+  if(lock2 == 0){
+    lock2 = 1;
+    document.getElementsByClassName("lock3")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("unlock3")[0].style.animation = "fadein 2s forwards";
+    document.getElementsByClassName("img3")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("img4")[0].style.animation = "fadein 2s forwards";
+  } else {
+    lock2 = 0;
+    document.getElementsByClassName("lock3")[0].style.animation = "fadein 2s forwards";
+    document.getElementsByClassName("unlock3")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("img4")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("img3")[0].style.animation = "fadein 2s forwards";
+  }
+}
+
+var lock3 = 0;
+function myFunction4(){
+  if(lock3 == 0){
+    lock3 = 1;
+    document.getElementsByClassName("lock4")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("unlock4")[0].style.animation = "fadein 2s forwards";
+    document.getElementsByClassName("img5")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("img6")[0].style.animation = "fadein 2s forwards";
+  } else {
+    lock3 = 0;
+    document.getElementsByClassName("lock4")[0].style.animation = "fadein 2s forwards";
+    document.getElementsByClassName("unlock4")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("img6")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("img5")[0].style.animation = "fadein 2s forwards";
+  }
+}
+var lock4 = 0;
+function myFunction5(){
+  if(lock4 == 0){
+    lock4 = 1;
+    document.getElementsByClassName("lock5")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("unlock5")[0].style.animation = "fadein 2s forwards";
+    document.getElementsByClassName("img7")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("img8")[0].style.animation = "fadein 2s forwards";
+  } else {
+    lock4 = 0;
+    document.getElementsByClassName("lock5")[0].style.animation = "fadein 2s forwards";
+    document.getElementsByClassName("unlock5")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("img8")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("img7")[0].style.animation = "fadein 2s forwards";
+  }
+}
+var lock5 = 0;
+function myFunction6(){
+  if(lock5 == 0){
+    lock5 = 1;
+    document.getElementsByClassName("lock6")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("unlock6")[0].style.animation = "fadein 2s forwards";
+    document.getElementsByClassName("img9")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("img10")[0].style.animation = "fadein 2s forwards";
+  } else {
+    lock5 = 0;
+    document.getElementsByClassName("lock6")[0].style.animation = "fadein 2s forwards";
+    document.getElementsByClassName("unlock6")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("img10")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("img9")[0].style.animation = "fadein 2s forwards";
+  }
+}
