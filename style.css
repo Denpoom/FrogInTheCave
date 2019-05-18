@@ -6,10 +6,11 @@ html {
 }
 img.lock{
   position: absolute;
-  top: 30%;
+  top: 40%;
   width: 100px;
   height: 100px;
-  right: 0%;
+  right: 30%;
+  cursor: pointer;
 }
 h3 {
   position: absolute;
@@ -57,56 +58,6 @@ img {
   height: 5vh;
 }
 
-p.p1{
-  position: absolute;
-  font-family: 'Calibri';
-  font-size: 3vw;
-  color: #000;
-  padding: 10px;
-  right: 0%;
-  top: 50%;
-  margin: 30px;
-}
-p.p2{
-  position: absolute;
-  font-family: 'Calibri';
-  font-size: 3vw;
-  color: #000;
-  padding: 10px;
-  right: 0%;
-  top: 50%;
-  margin: 30px;
-}
-p.p3{
-  position: absolute;
-  font-family: 'Calibri';
-  font-size: 3vw;
-  color: #000;
-  padding: 10px;
-  right: 0%;
-  top: 50%;
-  margin: 30px;
-}
-p.p4{
-  position: absolute;
-  font-family: 'Calibri';
-  font-size: 3vw;
-  color: #000;
-  padding: 10px;
-  right: 0%;
-  top: 50%;
-  margin: 30px;
-}
-p.p5{
-  position: absolute;
-  font-family: 'Calibri';
-  font-size: 3vw;
-  color: #000;
-  padding: 10px;
-  right: 0%;
-  top: 50%;
-  margin: 30px;
-}
 @keyframes fadeIn {
   0% {
      opacity: 0;
