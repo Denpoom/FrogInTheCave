@@ -80,7 +80,7 @@ html, body {
     100% { top:  50%; left: 120%; }
 }
 .page1 {
-    background: url("BG-PAGE-ONE.png") no-repeat center center fixed;
+    background: url(".BG-PAGE-ONE.png") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
