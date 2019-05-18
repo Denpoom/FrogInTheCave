@@ -1,0 +1,29 @@
+html{
+  font-family: 'Mitr', sans-serif;
+}
+  a{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .pag {
+    padding-top: 50;
+    padding-left: 25%;
+    padding-right: 100;
+    
+  }
+  a {
+    color:#fff;
+    text-decoration: none;
+  }
+  .menu{
+    height: 100%;
+    width:15%;
+    margin: -8px;
+    position: fixed;
+    background: #222;
+    padding: 31px;
+    float: right;
+  }
+  img{
+    text-align: center;
+  }
