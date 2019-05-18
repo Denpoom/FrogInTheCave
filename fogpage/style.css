@@ -44,20 +44,20 @@ html, body {
 
 .fog1 {
   width: 50%;
-  animation: fog-animation-1 40s linear infinite;
-  animation-delay: 2s;
+  animation: fog-animation-1 30s linear infinite;
+  animation-delay: 0s;
 }
 
 .fog2 {
   width: 80%;
-  animation: fog-animation-2 30s linear infinite;
-  animation-delay: 4s;
+  animation: fog-animation-2 20s linear infinite;
+  animation-delay: 0s;
 }
 
 .fog3 {
   width: 100%;
-  animation: fog-animation-3 50s linear infinite;
-  animation-delay: 0;
+  animation: fog-animation-3 40s linear infinite;
+  animation-delay: 0s;
 }
 
 @keyframes pulse {
