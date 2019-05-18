@@ -56,7 +56,7 @@ img {
    }
  }
 .page1 {
-  background: url(".pic/BG-PAGE-ONE.png") no-repeat center center fixed;
+  background: url(".pic/BG-PAGE-ONE.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -227,7 +227,7 @@ nav ul li a{
 
 .fog1 {
   width: 50%;
-  animation: fog-animation-1 30s linear infinite;
+  animation: fog-animation-1 40s linear infinite;
   animation-delay: 0s;
 }
 
@@ -239,13 +239,13 @@ nav ul li a{
 
 .fog3 {
   width: 200%;
-  animation: fog-animation-3 40s linear infinite;
+  animation: fog-animation-3 50s linear infinite;
   animation-delay: 0s;
 }
 
 .fog4 {
   width: 70%;
-  animation: fog-animation-4 35s linear infinite;
+  animation: fog-animation-4 30s linear infinite;
   animation-delay: 0s;
 }
 
