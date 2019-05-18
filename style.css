@@ -4,7 +4,13 @@ html {
   width: 100%;
   overflow: hidden;
 }
-
+img.lock{
+  position: absolute;
+  top: 30%;
+  width: 100px;
+  height: 100px;
+  right: 0%;
+}
 h3 {
   position: absolute;
   width: 80%;
@@ -43,18 +49,15 @@ img {
   top: 10%;
   left: 1.5%;
   width: 12vw;
-  
-  
 }
 .teamlogo{
   position: absolute;
   top: 25%;
   left: 90%;
   height: 5vh;
-  
 }
 
-p{
+p.p1{
   position: absolute;
   font-family: 'Calibri';
   font-size: 3vw;
@@ -64,6 +67,66 @@ p{
   top: 50%;
   margin: 30px;
 }
+p.p2{
+  position: absolute;
+  font-family: 'Calibri';
+  font-size: 3vw;
+  color: #000;
+  padding: 10px;
+  right: 0%;
+  top: 50%;
+  margin: 30px;
+}
+p.p3{
+  position: absolute;
+  font-family: 'Calibri';
+  font-size: 3vw;
+  color: #000;
+  padding: 10px;
+  right: 0%;
+  top: 50%;
+  margin: 30px;
+}
+p.p4{
+  position: absolute;
+  font-family: 'Calibri';
+  font-size: 3vw;
+  color: #000;
+  padding: 10px;
+  right: 0%;
+  top: 50%;
+  margin: 30px;
+}
+p.p5{
+  position: absolute;
+  font-family: 'Calibri';
+  font-size: 3vw;
+  color: #000;
+  padding: 10px;
+  right: 0%;
+  top: 50%;
+  margin: 30px;
+}
+@keyframes fadeIn {
+  0% {
+     opacity: 0;
+     transform: translate3d(0, -20%, 0);
+   }
+   100% {
+     opacity: 1;
+     transform: translate3d(0, 0, 0);
+   }
+ }
+ @keyframes fadeOut {
+  0% {
+     opacity: 1;
+     transform: translate3d(0, 0, 0);
+   }
+   100% {
+     opacity: 0;
+     transform: translate3d(0, -20%, 0);
+   }
+ }
 .page1 {
     background: url("./pic/ตึก.png");
      background-position: center center;
@@ -198,8 +261,6 @@ nav ul li a{
 }
 
 @media (max-width: 300px){
-
-
   nav{
     padding: 2%;
   }
