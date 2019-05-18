@@ -21,9 +21,9 @@ var slider = function(sliderElement) {
     if (direction > 0) {
       document.querySelector("nav").style.top = "0";
     } else {
-      document.querySelector("nav").style.top = "-55px";
+      document.querySelector("nav").style.top = "-80px";
     }
-    
+
       if (direction > 0) {
         changeSlide(-1);
       } else {
