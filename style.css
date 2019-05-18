@@ -206,3 +206,60 @@ body.slider__body {
   left: 71%;
   top: 73.5%;
 }
+
+nav{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #222;
+}
+
+nav ul{
+  text-align: center;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 1.5% 2%;
+  margin: 0 2%;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+#toggle-menu, .nav-label{
+  display: none;
+}
+
+
+
+@media (max-width: 400px){
+
+
+  nav{
+    padding: 2%;
+  }
+
+  nav ul{
+    display: none;
+  }
+
+  nav ul li{
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .nav-label{
+    padding: 3%;
+    display: inline-block;
+    background-color: #222;
+    color:white;
+  }
+  ul li:hover{
+    background-color: rgb(227, 235, 155);
+  }
+
+}
