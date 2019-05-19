@@ -634,11 +634,48 @@ nav ul li a{
 }
 /* button */
 
-button{
+button.button1{
   position: absolute;
   top: 40%;
   width: 100px;
   height: 50px;
   right: 20%;
   cursor: pointer;
+  opacity: 0;
+}
+button.button2{
+  position: absolute;
+  top: 40%;
+  width: 100px;
+  height: 50px;
+  right: 20%;
+  cursor: pointer;
+  opacity: 0;
+}
+button.button3{
+  position: absolute;
+  top: 40%;
+  width: 100px;
+  height: 50px;
+  right: 20%;
+  cursor: pointer;
+  opacity: 0;
+}
+button.button4{
+  position: absolute;
+  top: 40%;
+  width: 100px;
+  height: 50px;
+  right: 20%;
+  cursor: pointer;
+  opacity: 0;
+}
+button.button5{
+  position: absolute;
+  top: 40%;
+  width: 100px;
+  height: 50px;
+  right: 20%;
+  cursor: pointer;
+  opacity: 0;
 }
