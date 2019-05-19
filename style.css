@@ -4,102 +4,154 @@ html {
   width: 100%;
   overflow: hidden;
 }
+h1{
+  font-family: 'Kanit', sans-serif;
+  color:yellow;
+  z-index: 1;
 
+}
+h4{
+  font-family: 'Kanit', sans-serif;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  opacity: 1;
+}
 /* gimmic */
 img.lock{
   position: absolute;
-  top: 40%;
+  top: 80%;
   width: 100px;
   height: 100px;
-  right: 30%;
+  right: 10%;
   cursor: pointer;
   opacity: 1;
 }
 img.unlock{
   position: absolute;
-  top: 40%;
-  width: 100px;
-  height: 100px;
-  right: 30%;
+  top: 80%;
+  width: 130px;
+  height: 140px;
+  right: 10%;
   cursor: pointer;
   opacity: 0;
 }
 img.lock3{
   position: absolute;
-  top: 40%;
+  top: 80%;
   width: 100px;
   height: 100px;
-  right: 30%;
+  right: 90%;
   cursor: pointer;
   opacity: 1;
 }
 img.unlock3{
   position: absolute;
-  top: 40%;
+  top: 80%;
   width: 100px;
   height: 100px;
-  right: 30%;
+  right: 90%;
   cursor: pointer;
   opacity: 0;
 }
 img.lock4{
   position: absolute;
-  top: 40%;
+  top: 80%;
   width: 100px;
   height: 100px;
-  right: 30%;
+  right: 10%;
   cursor: pointer;
   opacity: 1;
 }
 img.unlock4{
   position: absolute;
-  top: 40%;
+  top: 80%;
   width: 100px;
   height: 100px;
-  right: 30%;
+  right: 10%;
   cursor: pointer;
   opacity: 0;
 }
 img.lock5{
   position: absolute;
-  top: 40%;
+  top: 80%;
   width: 100px;
   height: 100px;
-  right: 30%;
+  right: 90%;
   cursor: pointer;
   opacity: 1;
 }
 img.unlock5{
   position: absolute;
-  top: 40%;
+  top: 80%;
   width: 100px;
   height: 100px;
-  right: 30%;
+  right: 90%;
   cursor: pointer;
   opacity: 0;
 }
 img.lock6{
   position: absolute;
-  top: 40%;
+  top: 80%;
   width: 100px;
   height: 100px;
-  right: 30%;
+  right: 10%;
   cursor: pointer;
   opacity: 1;
 }
 img.unlock6{
   position: absolute;
-  top: 40%;
+  top: 80%;
   width: 100px;
   height: 100px;
-  right: 30%;
+  right: 10%;
   cursor: pointer;
   opacity: 0;
 }
 /* gimmic */
-.content-bt{
-  padding-top: 35%;
+.bg_op{
+  background-color: black;
+  opacity: 0.5;
+  width: 600px;
+  position: absolute;
+  right:1%;
+  height: 100%;
+  z-index: -1;
+
 }
+.leftcon{
+  background-color: rgb(69, 71, 71);
+}
+.bg_op2{ 
+  background-color: black;
+  opacity: 0.5;
+  width: 600px;
+  position: absolute;
+  left:50%;
+  height: 100%;
+  z-index: -1;
+  border-style: dotted;
+}
+.bg_op1{
+  background-color: black;
+  opacity: 0.5;
+  width: 600px;
+  position: absolute;
+  left:0%;
+  height: 100%;
+  z-index: -1;
+  border-style: dotted;
+
+}
+
+.container {
+  padding-top: 20%;
+}
+.content-bt{
+  z-index: 2;
+}
+
 img {
   position: absolute;
   width: 100%;
@@ -445,6 +497,11 @@ nav ul li a{
 	border: 32px solid;
 	border-color: transparent transparent transparent #666;
 }
+.but1{
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
 .tri-right.btm-left:after{
 	content: ' ';
 	position: absolute;
@@ -634,48 +691,61 @@ nav ul li a{
 }
 /* button */
 
-button.button1{
-  position: absolute;
-  top: 40%;
-  width: 100px;
-  height: 50px;
-  right: 20%;
-  cursor: pointer;
-  opacity: 0;
+button.button1 {
+   position: absolute;
+    top: 60%;
+    left: 17%;
+    width: 100px;
+    height: 50px;
+  
+    cursor: pointer;
+    opacity: 0;
+    background-color: white;
+    border-radius: 15%;
 }
 button.button2{
-  position: absolute;
-  top: 40%;
-  width: 100px;
-  height: 50px;
-  right: 20%;
-  cursor: pointer;
-  opacity: 0;
+ position: absolute;
+    top: 57%;
+    left: 50%;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 0;
+    background-color: white;
+    border-radius: 15%;
 }
 button.button3{
   position: absolute;
-  top: 40%;
-  width: 100px;
-  height: 50px;
-  right: 20%;
-  cursor: pointer;
-  opacity: 0;
+    top: 56%;
+    left: 17%;
+    width: 100px;
+    height: 50px;
+  
+    cursor: pointer;
+    opacity: 0;
+    background-color: white;
+    border-radius: 15%;
 }
 button.button4{
   position: absolute;
-  top: 40%;
-  width: 100px;
-  height: 50px;
-  right: 20%;
-  cursor: pointer;
-  opacity: 0;
+    top: 65%;
+    left: 48%;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    opacity: 0;
+    background-color: white;
+    border-radius: 15%;
 }
 button.button5{
   position: absolute;
-  top: 40%;
-  width: 100px;
-  height: 50px;
-  right: 20%;
-  cursor: pointer;
-  opacity: 0;
+    top: 65%;
+    left: 17%;
+    width: 100px;
+    height: 50px;
+  
+    cursor: pointer;
+    opacity: 0;
+    background-color: white;
+    border-radius: 15%;
 }
