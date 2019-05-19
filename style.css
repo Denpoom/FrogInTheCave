@@ -429,7 +429,6 @@ button.button1 {
     left: 17%;
     width: 100px;
     height: 50px;
-  
     cursor: pointer;
     opacity: 0;
     background-color: white;
@@ -512,7 +511,6 @@ img.mess1{
   bottom: 60%;
   width: 35vw;
   height: 45vh;
-  animation: messange 4s linear 22s;
 }
 .mess4{
   opacity: 0;
@@ -522,7 +520,6 @@ img.mess1{
   bottom: 15%;
   width: 15vw;
   height: 35vh;
-  animation: messange 4s linear 26s;
 }
 .mess5{
   opacity: 0;
@@ -532,7 +529,6 @@ img.mess1{
   bottom: 18%;
   width: 15vw;
   height: 35vh;
-  animation: messange 4s linear 30s;
 }
 .mess7{
   opacity: 0;
@@ -542,7 +538,6 @@ img.mess1{
   bottom: 60%;
   width: 35vw;
   height: 50vh;
-  animation: messange 4s linear 34s;
 }
 
 .mess6{
@@ -553,9 +548,46 @@ img.mess1{
   bottom: 19%;
   width: 20vw;
   height: 45vh;
-  animation: messange 4s linear 38s;
 }
 @keyframes messange{
   from{opacity: 0;}
   to{opacity: 1;}
+}
+button.ask{
+  opacity: 0;
+  position: absolute;
+  font-family: 'Kanit', sans-serif;
+  font-size: 15px;
+  width: 200px;
+  top: 95%;
+  right: 44%;
+  animation: fadein 2s forwards 22s;
+  cursor: pointer;
+  color: #212529;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  border-radius: 8px;
+}
+button.ask:hover{
+  background-color:#e1b137;
+  color: white;
+  border-radius: 8px;
+}
+button.ask2{
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  right: 44%;
+  width: 200px;
+  cursor: pointer;
+  font-family: 'Kanit', sans-serif;
+  font-size: 15px;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  border-radius: 8px;
+}
+button.ask2:hover{
+  background-color: #e1b137; /* Green */
+  color: white;
+  border-radius: 8px;
 }

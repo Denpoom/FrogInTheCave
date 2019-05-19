@@ -208,7 +208,7 @@ function myFunction2(){
     document.getElementsByClassName("unlock")[0].style.animation = "fadein 2s forwards";
     document.getElementsByClassName("img1")[0].style.animation = "fadeout 2s forwards";
     document.getElementsByClassName("img2")[0].style.animation = "fadein 2s forwards";
-    document.getElementsByClassName("button1")[0].style.animation = "fadein 4s forwards";
+    document.getElementsByClassName("button1")[0].style.animation = "fadein 2s forwards";
     document.getElementsByClassName("button1")[0].style.animationDelay = "2s";
   } else {
     lock = 0;
@@ -227,7 +227,7 @@ function myFunction3(){
     document.getElementsByClassName("unlock3")[0].style.animation = "fadein 2s forwards";
     document.getElementsByClassName("img3")[0].style.animation = "fadeout 2s forwards";
     document.getElementsByClassName("img4")[0].style.animation = "fadein 2s forwards";
-    document.getElementsByClassName("button2")[0].style.animation = "fadein 4s forwards";
+    document.getElementsByClassName("button2")[0].style.animation = "fadein 2s forwards";
     document.getElementsByClassName("button2")[0].style.animationDelay = "2s";
   } else {
     lock2 = 0;
@@ -246,7 +246,7 @@ function myFunction4(){
     document.getElementsByClassName("unlock4")[0].style.animation = "fadein 2s forwards";
     document.getElementsByClassName("img5")[0].style.animation = "fadeout 2s forwards";
     document.getElementsByClassName("img6")[0].style.animation = "fadein 2s forwards";
-    document.getElementsByClassName("button3")[0].style.animation = "fadein 4s forwards";
+    document.getElementsByClassName("button3")[0].style.animation = "fadein 2s forwards";
     document.getElementsByClassName("button3")[0].style.animationDelay = "2s";
   } else {
     lock3 = 0;
@@ -264,7 +264,7 @@ function myFunction5(){
     document.getElementsByClassName("unlock5")[0].style.animation = "fadein 2s forwards";
     document.getElementsByClassName("img7")[0].style.animation = "fadeout 2s forwards";
     document.getElementsByClassName("img8")[0].style.animation = "fadein 2s forwards";
-    document.getElementsByClassName("button4")[0].style.animation = "fadein 4s forwards";
+    document.getElementsByClassName("button4")[0].style.animation = "fadein 2s forwards";
     document.getElementsByClassName("button4")[0].style.animationDelay = "2s";
   } else {
     lock4 = 0;
@@ -282,7 +282,7 @@ function myFunction6(){
     document.getElementsByClassName("unlock6")[0].style.animation = "fadein 2s forwards";
     document.getElementsByClassName("img9")[0].style.animation = "fadeout 2s forwards";
     document.getElementsByClassName("img10")[0].style.animation = "fadein 2s forwards";
-    document.getElementsByClassName("button5")[0].style.animation = "fadein 4s forwards";
+    document.getElementsByClassName("button5")[0].style.animation = "fadein 2s forwards";
     document.getElementsByClassName("button5")[0].style.animationDelay = "2s";
   } else {
     lock5 = 0;
@@ -291,4 +291,16 @@ function myFunction6(){
     document.getElementsByClassName("img10")[0].style.animation = "fadeout 2s forwards";
     document.getElementsByClassName("img9")[0].style.animation = "fadein 2s forwards";
   }
+}
+function ask(){
+    document.getElementsByClassName("ask")[0].style.animation = "fadeout 2s forwards";
+    document.getElementsByClassName("mess3")[0].style.animation = "messange 4s linear 2s";
+    document.getElementsByClassName("mess4")[0].style.animation = "messange 4s linear 6s";
+    document.getElementsByClassName("mess5")[0].style.animation = "messange 4s linear 10s";
+    document.getElementsByClassName("ask2")[0].style.animation = "fadein 2s forwards 14s";
+}
+function ask2(){
+  document.getElementsByClassName("ask2")[0].style.animation = "fadeout 2s forwards";
+  document.getElementsByClassName("mess6")[0].style.animation = "messange 4s linear 2s";
+  document.getElementsByClassName("mess7")[0].style.animation = "messange 4s linear 6s";
 }
