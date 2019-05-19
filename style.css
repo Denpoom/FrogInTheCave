@@ -631,7 +631,9 @@ nav ul li a{
   opacity: 1;
   position: absolute;
   left:-20%;
+}
 /* button */
+
 button{
   position: absolute;
   top: 40%;
