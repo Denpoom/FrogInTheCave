@@ -349,18 +349,14 @@ nav ul li a{
 /* General CSS Setup */
 
 /* container */
-.container {
-  padding: 5% 5%;
-}
 
 /* CSS talk bubble */
 .talk-bubble-boy {
 	margin: 40px;
-  display: inline-block;
-  position: relative;
-  top:30%;
-	left: 35%;
-	width: 8vw;
+  position: absolute;
+  top:-50%;
+	right: 140%;
+	width: 9vw;
 	height: auto;
 	background-color: lightyellow;
 }
@@ -368,8 +364,8 @@ nav ul li a{
 	margin: 40px;
   display: inline-block;
   position: absolute;
-  top:30%;
-  right: 35%;
+  top:33%;
+  right: 37%;
 	width: 8vw;
 	height: auto;
 	background-color: lightyellow;
@@ -603,6 +599,7 @@ nav ul li a{
 
 /* talk bubble contents */
 .talktext{
+  font-size: 120%;
   padding: 1em;
 	text-align: left;
   line-height: 1.5em;
@@ -611,4 +608,27 @@ nav ul li a{
   /* remove webkit p margins */
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
+}
+
+.background_page1{
+  position: absolute;
+  bottom :0;
+  left: 0;
+  right: 0;
+  top:0;
+  animation: bg-expand 10s linear ;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bg-expand {
+    0%   {  right: 0; left:  0 ;width: 100%; height: 100%;  }
+    100% {  right: -100% ; left: -25% ;width: 150%; height: 150%; ;
+     }
+}
+
+.soundopen{
+  opacity: 1;
+  position: absolute;
+  left:-20%;
 }
