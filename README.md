@@ -7,8 +7,9 @@ Human-Right Wordpress Website</br>
 วีดีโอนี่เป็นส่วนหนึ่งของการนำเสนอชิ้นงานวิชา Multimedia Technology</br>
 คณะเทคโนโลยีสารสนเทศ สถาบันพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</br>
 </br>
-Website : </br>
+Website : http://161.246.38.35/~it61070219/wordpress</br>
 GitHub :  https://github.com/sahussawud/FrogInTheCave</br>
+Youtube : https://youtu.be/AWrIcz_njYA</br>
 
 ประเภท : เว็บไซต์โดยมีระบบเบื้องหลังเวิร์ดเพลส</br>
 ผู้พัฒนา :</br>
